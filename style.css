@@ -1,0 +1,43 @@
+body{
+ text-align: center; 
+ position: relative;
+background-color: rgb(255, 246, 246);
+ margin-left: 2em;
+ margin-right:2em;
+}
+.container {
+  display: grid;
+  
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+
+  padding:10px;
+
+}
+
+.box {
+  border: 2px solid #666;
+  background-color: #ddd;
+  border-radius: .5em;
+  padding: 10px;
+  cursor: move;
+}
+
+.fade.dragging {
+    opacity: 0.5;
+    
+  }
+
+  #A.box{
+    background-color:rgb(255, 242, 213);
+  }
+  #B.box{
+    background-color:rgb(213, 238, 213);
+  }
+  #C.box{
+    background-color:rgb(210, 228, 255);
+  }
+
+footer{
+  margin-top:20px;
+}
